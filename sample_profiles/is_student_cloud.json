@@ -1,0 +1,48 @@
+{
+  "name": "Jordan Rivera",
+  "email": "jordan.rivera@example.com",
+  "location": "Austin, TX",
+  "education": {
+    "institution": "University of Texas, Austin",
+    "degree": "B.A.",
+    "major": "Economics & Information Systems",
+    "graduation_year": 2025,
+    "gpa": "3.6 / 4.0",
+    "coursework": [
+      "Full-Stack Web Engineering",
+      "Database Management Systems",
+      "Software Design Principles"
+    ],
+    "honors": []
+  },
+  "skills": [
+    {"name": "JavaScript", "proficiency": "intermediate", "category": "Programming & Languages", "years_experience": 1.5},
+    {"name": "React", "proficiency": "intermediate", "category": "Web & Frontend", "years_experience": 1.0},
+    {"name": "HTML & CSS", "proficiency": "advanced", "category": "Web & Frontend", "years_experience": 2.0},
+    {"name": "Git", "proficiency": "intermediate", "category": "Developer Tools & CI/CD", "years_experience": 1.5},
+    {"name": "SQL", "proficiency": "beginner", "category": "Databases & Storage", "years_experience": 0.5}
+  ],
+  "academic_interests": ["Responsive Web Applications", "Interactive Visualizations", "FinTech Dashboards"],
+  "career_goal": {
+    "target_role": "Full Stack Web Developer",
+    "seniority_level": "Junior (0-1 YOE)",
+    "target_industry": "E-Commerce / Consumer Tech",
+    "timeline_months": 3,
+    "preferred_work_style": "Hybrid"
+  },
+  "projects": [
+    {
+      "title": "ShopEase: Responsive E-Commerce Platform",
+      "description": "Full-stack e-commerce store with product search, cart state management, and checkout.",
+      "role": "Frontend Developer",
+      "tech_stack": ["React", "JavaScript", "Tailwind CSS", "Stripe API"],
+      "highlights": [
+        "Implemented responsive UI scoring 98 on Google Lighthouse",
+        "Integrated secure client-side payment processing"
+      ],
+      "link": "https://github.com/jordanrivera/shopease"
+    }
+  ],
+  "hours_per_week_available": 20,
+  "learning_style": "project_based"
+}

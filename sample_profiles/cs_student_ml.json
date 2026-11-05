@@ -1,0 +1,62 @@
+{
+  "name": "Alex Chen",
+  "email": "alex.chen@berkeley.edu",
+  "location": "Berkeley, CA",
+  "education": {
+    "institution": "University of California, Berkeley",
+    "degree": "B.S.",
+    "major": "Computer Science",
+    "graduation_year": 2026,
+    "gpa": "3.85 / 4.0",
+    "coursework": [
+      "CS 189: Introduction to Machine Learning",
+      "CS 61B: Data Structures & Algorithms",
+      "CS 162: Operating Systems",
+      "EECS 127: Optimization Models"
+    ],
+    "honors": ["Dean's Honors List", "Regents Scholar"]
+  },
+  "skills": [
+    {"name": "Python", "proficiency": "advanced", "category": "Programming & Languages", "years_experience": 3.0},
+    {"name": "PyTorch", "proficiency": "intermediate", "category": "Data Science & Machine Learning", "years_experience": 1.5},
+    {"name": "SQL", "proficiency": "intermediate", "category": "Databases & Storage", "years_experience": 1.0},
+    {"name": "Git", "proficiency": "intermediate", "category": "Developer Tools & CI/CD", "years_experience": 2.0},
+    {"name": "C++", "proficiency": "intermediate", "category": "Programming & Languages", "years_experience": 1.5},
+    {"name": "Scikit-Learn", "proficiency": "intermediate", "category": "Data Science & Machine Learning", "years_experience": 1.0}
+  ],
+  "academic_interests": ["Deep Learning & Computer Vision", "Efficient Model Inference", "High-Performance Systems"],
+  "career_goal": {
+    "target_role": "Junior Machine Learning Engineer",
+    "seniority_level": "Entry-Level / Junior (0-2 YOE)",
+    "target_industry": "AI & Autonomous Systems",
+    "timeline_months": 6,
+    "preferred_work_style": "Hybrid"
+  },
+  "projects": [
+    {
+      "title": "EdgeVision: Low-Latency Object Detection",
+      "description": "Quantized and pruned a YOLOv8 model for real-time edge inference on Jetson Nano.",
+      "role": "Lead ML Developer",
+      "tech_stack": ["Python", "PyTorch", "TensorRT", "OpenCV"],
+      "highlights": [
+        "Achieved 2.8x inference speedup with under 1.2% mAP degradation",
+        "Integrated real-time webcam streaming benchmark"
+      ],
+      "link": "https://github.com/alexchen/edge-vision"
+    },
+    {
+      "title": "Distributed Key-Value Store",
+      "description": "Implemented a Raft-consensus distributed replicated key-value storage engine in C++.",
+      "role": "Systems Engineer",
+      "tech_stack": ["C++", "gRPC", "CMake", "POSIX Sockets"],
+      "highlights": [
+        "Passed 100% linearizability stress tests under simulated network partitions",
+        "Handled 12,000 requests/sec across 5-node cluster"
+      ],
+      "link": "https://github.com/alexchen/raft-kv"
+    }
+  ],
+  "hours_per_week_available": 12,
+  "learning_style": "project_based",
+  "existing_certifications": []
+}
