@@ -15,3 +15,4 @@ class AppConfig(BaseModel):
     debug: bool = os.getenv("DEBUG", "false").lower() in ("true", "1", "t")
 
 config = AppConfig()
+

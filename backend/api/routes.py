@@ -240,3 +240,4 @@ def export_html_dossier(profile: StudentProfile):
     """Returns clean, self-contained HTML report ready for printing/PDF saving."""
     dossier = orchestrator.generate_dossier(profile)
     return HTMLResponse(content=dossier.formatted_artifacts.career_dossier_html)
+

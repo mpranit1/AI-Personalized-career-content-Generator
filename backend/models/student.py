@@ -70,3 +70,4 @@ class StudentProfile(BaseModel):
     learning_style: LearningStyle = Field(default=LearningStyle.PROJECT_BASED)
     existing_certifications: List[str] = Field(default_factory=list)
     bio_notes: Optional[str] = Field(default=None, description="Any additional context or preferences")
+

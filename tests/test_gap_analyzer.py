@@ -57,3 +57,4 @@ def test_taxonomy_normalization():
     assert TaxonomyService.normalize_skill_name("postgres") == "PostgreSQL"
     assert TaxonomyService.normalize_skill_name("docker") == "Docker Containers"
     assert TaxonomyService.normalize_skill_name("reactjs") == "React.js"
+

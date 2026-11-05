@@ -589,3 +589,4 @@ function showToast(msg, type = "success") {
         setTimeout(() => toast.remove(), 300);
     }, 2800);
 }
+

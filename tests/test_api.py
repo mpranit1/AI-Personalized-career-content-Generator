@@ -88,3 +88,4 @@ def test_export_resume_endpoint():
     assert response.status_code == 200
     assert "David Miller" in response.text
     assert "PROFESSIONAL SUMMARY" in response.text
+

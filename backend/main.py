@@ -43,3 +43,4 @@ if FRONTEND_DIR.exists():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("backend.main:app", host=config.host, port=config.port, reload=config.debug)
+

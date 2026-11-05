@@ -164,3 +164,4 @@ class TaxonomyService:
             skills=synthesized_skills,
             certifications=["Foundational Professional Certificate in " + role_title],
         )
+

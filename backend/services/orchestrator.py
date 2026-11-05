@@ -91,3 +91,4 @@ class CareerDossierOrchestrator:
             formatted_artifacts=formatted,
             model_used=model_used,
         )
+

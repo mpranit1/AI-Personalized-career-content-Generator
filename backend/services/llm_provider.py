@@ -93,3 +93,4 @@ Respond ONLY with a valid JSON object matching this schema:
         except Exception as e:
             logger.warning(f"LLM polishing failed: {e}. Using deterministic semantic generator.")
             return base_summary
+

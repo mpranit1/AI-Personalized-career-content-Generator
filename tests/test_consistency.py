@@ -76,3 +76,4 @@ def test_consistency_auditor_flags_mismatched_roles():
     role_check = next(c for c in audit_tampered.audit_checks if c.dimension == "role_alignment")
     assert role_check.status == AuditCheckStatus.FAIL
     assert "Role mismatch detected" in role_check.details
+

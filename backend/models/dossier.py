@@ -156,3 +156,4 @@ class UnifiedCareerDossier(BaseModel):
     consistency_audit: ConsistencyAuditResult
     formatted_artifacts: FormattedArtifacts
     model_used: str = "Hybrid Knowledge Graph Engine + LLM"
+

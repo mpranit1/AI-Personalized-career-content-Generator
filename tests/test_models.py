@@ -71,3 +71,4 @@ def test_skill_gap_item_creation():
     assert item.status == GapStatus.MISSING
     assert item.severity == GapSeverity.HIGH
     assert item.current_proficiency is None
+
